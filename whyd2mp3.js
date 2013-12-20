@@ -6,6 +6,7 @@
 
 // https://raw.github.com/SkinyMonkey/whyd2mp3/master/whyd2mp3.js
 
+/*
 if(!window.jQuery)
 {
     var script = document.createElement('script');
@@ -13,6 +14,7 @@ if(!window.jQuery)
     script.src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js";
     document.getElementsByTagName('head')[0].appendChild(script);
 }
+*/
 
 (function(){
 
@@ -28,7 +30,7 @@ if(!window.jQuery)
     var websites = new Array(mrtzcmp3, mnogomp3);
 
     function    add_links(post) {
-        var track_title = $(".post").find(§$("h2")).find("a").html();
+        var track_title = $(".post").find($("h2")).find("a").html();
         var btns = post.find($(".btns"));
 
         for (var i=0; i < websites.length; i++) {
