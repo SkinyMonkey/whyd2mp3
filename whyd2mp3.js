@@ -29,9 +29,9 @@ if(!window.jQuery)
     
     var websites = new Array(mrtzcmp3, mnogomp3);
 
-    function    add_links(post) {
-        var track_title = $(post).find($("h2")).find("a").html();
-        var btns = post.find($(".btns"));
+    function    add_links() {
+        var track_title = $(this).find($("h2")).find("a").html();
+        var btns = $(this).find($(".btns"));
 
         for (var i=0; i < websites.length; i++) {
             var website_name = websites[i].name;
