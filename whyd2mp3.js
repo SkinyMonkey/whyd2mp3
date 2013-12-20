@@ -6,16 +6,6 @@
 
 // https://raw.github.com/SkinyMonkey/whyd2mp3/master/whyd2mp3.js
 
-/*
-if(!window.jQuery)
-{
-    var script = document.createElement('script');
-    script.type = "text/javascript";
-    script.src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js";
-    document.getElementsByTagName('head')[0].appendChild(script);
-}
-*/
-
 (function(){
 
     function mrtzcmp3(title) {
