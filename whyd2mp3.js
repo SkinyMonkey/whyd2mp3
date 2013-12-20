@@ -5,7 +5,7 @@
 */
 
 (function(){
-    // 
+
     function mrtzcmp3(title) {
         title.replace(/\s+/g, '-').toLowerCase();
         return ('http://mrtzcmp3.net/search/' + title);
