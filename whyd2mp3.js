@@ -4,6 +4,8 @@
 ** from the whyd website.
 */
 
+// https://raw.github.com/SkinyMonkey/whyd2mp3/master/whyd2mp3.js
+
 (function(){
 
     function mrtzcmp3(title) {
@@ -15,7 +17,7 @@
         return ('http://mnogomp3.ru/music/' + title);
     }
     
-    var websites = [mrtzcmp3, mnogomp3];
+    var websites = new Array(mrtzcmp3, mnogomp3);
 
     function    add_links(post) {
         var track_title = $(".post").find($("h2")).find("a").html();
